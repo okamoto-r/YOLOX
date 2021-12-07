@@ -11,6 +11,9 @@ import cv2
 
 import torch
 
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 from yolox.data.data_augment import ValTransform
 from yolox.data.datasets import COCO_CLASSES
 from yolox.exp import get_exp
