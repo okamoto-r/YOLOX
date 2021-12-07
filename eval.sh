@@ -1,0 +1,1 @@
+python tools/vis.py image -f tools/../exps/example/custom/yolox_s_insect.py -c tools/../YOLOX_outputs/yolox_s_insect/best_ckpt.pth --path tools/../datasets/COD10K-insect/val2017 --conf 0.25 --nms 0.45 --tsize 640 --save_result --device [cpu/gpu]
